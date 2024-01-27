@@ -1,0 +1,20 @@
+.Partner{
+    margin: 63px 64px 107px 64px;
+}
+.container-num2{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.logo-text__div{
+    max-width: 40%;
+}
+.logo-text{
+    color: #030A1B;
+    font-family: Poppins;
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 73.2px */
+    text-align: left;
+}
