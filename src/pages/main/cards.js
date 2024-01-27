@@ -16,6 +16,7 @@ function CardsPart() {
       return(
         <div key={idx}>
           {item.id}
+          {item.title}
         </div>
       )
     })}
