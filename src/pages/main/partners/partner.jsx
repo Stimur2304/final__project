@@ -1,6 +1,7 @@
 import React from 'react'
 import "./partner.css"
 import finalProjectReactangle from "../../main/pictures/finalProjectReactangle.png"
+import { Partners } from '../../constants/partners'
 
 const Partner = () => {
   return (
@@ -13,8 +14,19 @@ const Partner = () => {
                 <img src={finalProjectReactangle} alt="" />
             </div>
         </div>
+        <div>
+          <p className='partner__header'>Our Partners</p>
+        </div>
         <div className='partners'>
-          
+          {Partners.map((item,idx)=>{
+            return(
+              <div className='img-div__partners'>
+                <div key={idx}>
+                <img src={item.img} alt="" />
+                </div>
+              </div>
+            )
+          })}
         </div>
     </div>
   )
