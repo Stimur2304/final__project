@@ -39,3 +39,21 @@
 .header-button{
     height: 54px;
 }
+@media(max-width:1350px){
+    .right__part{
+        width: 40%;
+    }
+}
+@media(max-width:1050px){
+    .right__part{
+        width:50%;
+    }
+}
+@media(max-width:845px){
+    .right__part{
+        width:60%;
+    }
+    .logo-header{
+        width: 200px;
+    }
+}

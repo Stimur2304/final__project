@@ -1,0 +1,103 @@
+.card{
+    width: 362px;
+    height: 553px;
+    margin: 50px auto 0 auto;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 8px 70px 0px rgba(0, 0, 0, 0.07);
+
+
+}
+.card-img{
+    width: 362px;
+    height: 321px;
+}
+.card-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.card-container{
+    margin: 0 64px;
+}
+.card-desk__header{
+    text-align: left;
+    color: #030A1B;
+    font-family: "Poppins",sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+.desk-div__cards{
+    margin: 20px;
+}
+.location-div{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    
+}
+.card-country__text{
+    margin-left:4px ;
+    color: #030A1B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+}
+.amoutOfRooms-div{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card-button{
+    height: 40px;
+    width: 138px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.last-desk__div{
+    display: flex;
+    justify-content: space-between;
+}
+.card:hover{
+    border: 0.7px solid black;
+    box-shadow: 0px 0px 10px 10px gray;
+}
+
+@media(max-width:1260px){
+    .card-div{
+        grid-template-columns: 1fr 1fr  ;        
+    }
+}
+@media(max-width:910px){
+    .card-div{
+        grid-template-columns: 1fr   ;        
+        
+    }
+    .card{
+    width: 362px;
+    height: 553px;
+    margin: 50px auto 0 auto;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 8px 70px 0px rgba(0, 0, 0, 0.07);
+
+
+}
+}
