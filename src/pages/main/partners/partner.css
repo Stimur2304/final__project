@@ -18,3 +18,17 @@
     line-height: 120%; /* 73.2px */
     text-align: left;
 }
+.partners{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.partner__header{
+    color: #030A1B;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
