@@ -14,7 +14,8 @@ const Partner = () => {
             </div>
         </div>
         <div className='partners'>
-            </div>
+          
+        </div>
     </div>
   )
 }
