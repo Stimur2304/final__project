@@ -8,13 +8,13 @@ const  HeaderPart = () => {
     <div className='Header'>
         <div className='header'>
             <div className='logo'>
-                <img src={image} alt="" />
+                <img className='logo-header' src={image} alt="" />
             </div>
 
             <div className='right__part'>
               <a className='header-links' href="/">Home</a>
               <a className='header-links'  href="/aboutUs">About us </a>
-              <Button className='header-button' variant="contained"><p className='button-text'>+ Add advertisement</p></Button>
+              <Button className='header-button' href='/' variant="contained"><p className='button-text'>+ Add advertisement</p></Button>
             </div>
         </div>
     </div>

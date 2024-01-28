@@ -8,8 +8,8 @@ function App() {
     <div className="App">
     <Routes>
     <Route exact path='/' element={<Homepage/>}/>
-    {/* <Route exact path='/aboutUs' element={<AboutUs></AboutUs>}/> */}
     <Route exact path="/:id"   element={<DetailedPage/>}/>
+    
     </Routes>
   </div>
   )

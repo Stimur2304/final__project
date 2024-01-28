@@ -11,7 +11,7 @@ const Partner = () => {
                 <p className='logo-text'>Find the perfect place to stay with your family</p>
             </div>
             <div className='img-div'>
-                <img src={finalProjectReactangle} alt="" />
+                <img className='img-partner' src={finalProjectReactangle} alt="" />
             </div>
         </div>
         <div>
@@ -22,7 +22,7 @@ const Partner = () => {
             return(
               <div className='img-div__partners'>
                 <div key={idx}>
-                <img src={item.img} alt="" />
+                <img className='partner-img' src={item.img} alt="" />
                 </div>
               </div>
             )
