@@ -1,0 +1,92 @@
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main-rates__div{
+  height: 480px;
+  margin: 0 64px;
+  
+}
+.comments-card__div{
+  height: 210px;
+  margin-bottom: 40px;
+  box-shadow: 0px 8px 70px 0px rgba(0, 0, 0, 0.07);
+  width: 40%; 
+  border-radius: 10px;
+  border: 2px solid rgba(254, 117, 63, 0.10);
+  background: #FFF;
+  padding: 30px;
+  
+}
+.Rates{
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.Rates h1{
+  color: #030A1B;
+  font-family: "Poppins",sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.Rates p {
+  color: #FE753F;
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+}
+.comments-card__first img{
+  width: 74px;
+  height: 74px;
+  border-radius:74px ;
+}
+.comments-card__first{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.name__and__honor{
+  text-align: left;
+  width: 55%;
+}
+#img{
+  border-radius: 0px;
+}
+.comment-card__desc{
+  text-align: left;
+  color: #030A1B;
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
