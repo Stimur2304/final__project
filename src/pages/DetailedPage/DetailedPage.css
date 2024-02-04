@@ -1,0 +1,43 @@
+
+
+.images{
+    width: 50%;
+}
+
+.Image-container{
+    margin: 0 64px;
+}
+.image-desc__detailed__div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titles{
+    text-align: left;
+    width: 45%;
+}
+
+
+
+.titles p{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.Detailed-button{
+    margin-left: 500px;
+    margin-top: 70px;
+    top: 85px;
+    left: 515px;
+    padding: 15px, 30px, 15px, 30px;
+    border-radius: 5px;
+    gap: 10px;
+    height: 50px;
+}
