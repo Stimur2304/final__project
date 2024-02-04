@@ -5,9 +5,16 @@ import {axiosInstance} from '../../API/index'
 import ReactImages from '../../components/ReactImage/ReactImages'
 import './DetailedPage.css'
 import Button from '@mui/material/Button';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const DetailedPage = () => {
-
+  
+  const AlertNotf = () =>{
+    toast.info("Lorem ipsum dolor", {
+      theme: "colored"
+})
+  }
   const {id} = useParams()
   const [data, setData] = useState({})
 
@@ -49,7 +56,9 @@ const DetailedPage = () => {
           <p>Описание: {data.description}</p>
           <p>Цена: {data.price}$</p>
           <p>ID {data.id}</p> 
-          <Button className='Detailed-button' variant="contained" onClick={null}><p className='button-text'>Контакты</p></Button>
+         <div className='contacts-div'>
+         <Button className='Detailed-button' variant="contained" onClick={()=>AlertNotf()}><p className='button-text'>Контакты</p></Button>
+         </div>
         </div>
      </div>
     </div>

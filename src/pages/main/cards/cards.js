@@ -6,9 +6,10 @@ import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
 
 const Card = () =>{
+  
   const navigate = useNavigate()
-
   const[data,setData] = useState([])
+
   useEffect(()=>{
     (async()=>{
       const result = await  GetData()
@@ -21,6 +22,7 @@ const Card = () =>{
   const goToDetailedInfo = (id)=>{
     navigate(`/${id}`)
   }
+
   return(
  <div className='card-container'>
    <div className='card-div'>
