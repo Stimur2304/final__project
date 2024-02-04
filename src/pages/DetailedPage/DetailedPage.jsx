@@ -7,13 +7,20 @@ import './DetailedPage.css'
 import Button from '@mui/material/Button';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { showInfo } from '../../utils/alert'
 
 const DetailedPage = () => {
-  
+
   const AlertNotf = () =>{
-    toast.info("Lorem ipsum dolor", {
-      theme: "colored"
-})
+    const resolveAfter3Sec = new Promise(resolve => setTimeout(resolve, 3000));
+  toast.promise(
+    resolveAfter3Sec,
+    {
+      pending: 'Promise is pending',
+      success: 'Promise resolved 👌',
+      error: 'Promise rejected 🤯'
+    }
+)
   }
   const {id} = useParams()
   const [data, setData] = useState({})
@@ -57,7 +64,7 @@ const DetailedPage = () => {
           <p>Цена: {data.price}$</p>
           <p>ID {data.id}</p> 
          <div className='contacts-div'>
-         <Button className='Detailed-button' variant="contained" onClick={()=>AlertNotf()}><p className='button-text'>Контакты</p></Button>
+         <Button className='Detailed-button' variant="contained" onClick={()=>showInfo(data?.realtor?.FIO, data?.realtor?.phone)}><p className='button-text'>Контакты</p></Button>
          </div>
         </div>
      </div>
