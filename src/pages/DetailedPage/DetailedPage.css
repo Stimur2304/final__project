@@ -34,10 +34,10 @@
 .Detailed-button{
     margin-left: 500px;
     margin-top: 70px;
-    top: 85px;
+    top: 585px;
     left: 515px;
     padding: 15px, 30px, 15px, 30px;
     border-radius: 5px;
     gap: 10px;
-    height: 50px;
+    height: 40px;
 }
