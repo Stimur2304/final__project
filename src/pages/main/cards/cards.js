@@ -12,13 +12,13 @@ const Card = () =>{
 
   useEffect(()=>{
     (async()=>{
-     try{
+    try{
       const result = await  GetData()
       setData(result)
       console.log(result)
-     }catch(e){
+    }catch(e){
       console.log(e)
-     }
+    }
     })()
   },[])
 
