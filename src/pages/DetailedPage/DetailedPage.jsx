@@ -49,9 +49,7 @@ const DetailedPage = () => {
           <p>Описание: {data.description}</p>
           <p>Цена: {data.price}$</p>
           <p>ID {data.id}</p> 
-          <div className='button'>
           <Button className='Detailed-button' variant="contained" onClick={null}><p className='button-text'>Контакты</p></Button>
-          </div>
         </div>
      </div>
     </div>
