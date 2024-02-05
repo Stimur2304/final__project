@@ -9,7 +9,6 @@ function App() {
     <Routes>
     <Route exact path='/' element={<Homepage/>}/>
     <Route exact path="/:id"   element={<DetailedPage/>}/>
-    
     </Routes>
   </div>
   )
