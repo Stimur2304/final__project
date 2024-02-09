@@ -3,6 +3,7 @@ import Partner from "./partners/partner";
 import Card from "./cards/cards";
 import Comments from "./comments/comments";
 import Footer from "../../components/footer/footer";
+import { motion } from "framer-motion";
 
 function Homepage() {
   return(

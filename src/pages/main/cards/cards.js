@@ -31,15 +31,16 @@ const Card = () =>{
 
 
   return(
- <div className='card-container'>
+ < div 
+ className='card-container'>
    <div  className='card-div'>
     { data.map((item,idx)=>{
       return(
         <motion.div key={idx}
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -50 }}
-        transition={{ duration: 0.5 }}
+          initial={{ opacity: 0, y: 100}}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
         >
           <div className='card'>
             <div className='img-div__cards'>
