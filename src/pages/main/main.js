@@ -2,18 +2,16 @@ import HeaderPart from "./headerr/header";
 import Partner from "./partners/partner";
 import Card from "./cards/cards";
 import Comments from "./comments/comments";
-import Footer from "../../components/footer/footer";
-import { motion } from "framer-motion";
+import MyComponent from "./footer/footer";
 
 function Homepage() {
   return(
     <div className='HomePAge'>
-      <HeaderPart></HeaderPart>
+      <HeaderPart/>
       <Partner></Partner>
       <Card></Card>
       <Comments></Comments>
-      <Footer></Footer>
-
+      <MyComponent/>
     </div>
   )
 }

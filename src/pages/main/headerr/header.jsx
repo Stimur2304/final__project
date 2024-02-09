@@ -14,7 +14,7 @@ const  HeaderPart = () => {
             <div className='right__part'>
               <a className='header-links' href="/">Home</a>
               <a className='header-links'  href="/aboutUs">About us </a>
-              <Button className='header-button' href='/' variant="contained"><p className='button-text'>+ Add advertisement</p></Button>
+              <Button className='header-button' href='/logIn' variant="contained"><p className='button-text'>+ Add advertisement</p></Button>
             </div>
         </div>
     </div>
