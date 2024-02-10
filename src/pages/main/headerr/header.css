@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+.Header {
+    margin: 0 64px 200px;
+}
+
 
 .header{
-    margin: 0 64px;
-    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
-
+    width: 92%;
+    padding: 0 64px;
+    background: white;
+    z-index: 999;
+    /* background-color: rgba(204, 204, 204, 0.41); */
 }
 .right__part{
     width: 30%;

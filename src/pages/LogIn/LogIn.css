@@ -17,7 +17,7 @@
     
    
   }
-  button{
+.LogIn-div button{
     width: 20%;
     height: 45px;
     display: block;
@@ -27,7 +27,7 @@
     font-family: "Lexend Deca",sans-serif;
   }
 
-button:hover{
+.LogIn-div button:hover{
   background-color: aliceblue;
   border: #20DF7F solid 2px;
 }
@@ -57,6 +57,7 @@ button:hover{
   justify-content: center;
   height: 250px;
   align-content: space-between;
+  margin:200px 0 0 ;
 }
 form{
   display: flex;
