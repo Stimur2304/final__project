@@ -5,6 +5,7 @@ const MyComponent = () => {
     return (
     <div className="container">
         <div className='left__part__of__Footer'>
+            <h2>Miran test</h2>
             <img src="https://s3-alpha-sig.figma.com/img/d24e/5ec0/6bef24df23588d7fd0dfc61945338475?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pskLvJ-B5qaSyyTM083eXGIp2aHFYyFiKwm1uMHWSI0Hk4jt8oR3NEObT3VEZTBgGAiMrMyueZYu6voPydELFrUIndpsalmSkn8u6hgR3grF7~GLflHH5jUi96Mr063Wpig-uxml7JoNe2UBrsKvYO0LeuBwHzznfQDFRHqq03H0HGZfx9bk~eCcXEs6gNmrhLGnibTvCM6m6UKtVzOK-yzTOQDyf1GcqpHXG1glhizdeTXIuXcxmW7ObDiu-l6d8Q6aXn2hzbPVr3OXVbkvfPsy7LFcQQr91RMIQK7zwVRu8XNhKDc89U2THXhLxyxVfi9q9hHnH8dHeFXAF8R6MA__" alt="Image" className="top-image" />
                 <div className="middle-text">
                     <p>Contrary to popular is not simply random text. It has</p>
