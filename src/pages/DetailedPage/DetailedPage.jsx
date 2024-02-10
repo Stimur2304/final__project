@@ -10,18 +10,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import { showInfo } from '../../utils/alert'
 
 const DetailedPage = () => {
-
-  const AlertNotf = () =>{
-    const resolveAfter3Sec = new Promise(resolve => setTimeout(resolve, 3000));
-  toast.promise(
-    resolveAfter3Sec,
-    {
-      pending: 'Promise is pending',
-      success: 'Promise resolved 👌',
-      error: 'Promise rejected 🤯'
-    }
-)
-  }
   const {id} = useParams()
   const [data, setData] = useState({})
 
