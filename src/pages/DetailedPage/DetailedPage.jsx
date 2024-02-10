@@ -5,9 +5,9 @@ import {axiosInstance} from '../../API/index'
 import ReactImages from '../../components/ReactImage/ReactImages'
 import './DetailedPage.css'
 import Button from '@mui/material/Button';
-import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { showInfo } from '../../utils/alert'
+import MyComponent from '../main/footer/footer'
 
 const DetailedPage = () => {
   const {id} = useParams()
@@ -30,15 +30,14 @@ const DetailedPage = () => {
   }, [])
 
   return (
-    <div className='Image-container'>
-      <div>
-        <HeaderPart />
-        </div>
+    <div>
+      <HeaderPart />
+      <div className='Image-container'>
         <div className='image-desc__detailed__div'>
-        <div className='images'>
-          <ReactImages 
-           photos={data?.flat_images}/>
-        </div>
+          <div className='images'>
+            <ReactImages 
+            photos={data?.flat_images}/>
+          </div>
         <div className='titles'>
           <h2>
             {data.title}
@@ -56,6 +55,8 @@ const DetailedPage = () => {
          </div>
         </div>
      </div>
+    </div>
+    <MyComponent/>
     </div>
   )
 }

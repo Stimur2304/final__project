@@ -1,5 +1,4 @@
 
-
 .images{
     width: 50%;
 }
@@ -32,11 +31,7 @@
 
 
 .Detailed-button{
-    margin-left: 500px;
-    margin-top: 70px;
-    padding: 15px, 30px, 15px, 30px;
-    border-radius: 5px;
-    gap: 10px;
+    width: 30%;
     height: 40px;
 }
 .contacts-div{
