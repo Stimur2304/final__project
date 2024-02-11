@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .App {
   text-align: center;
 }
@@ -34,5 +36,23 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media (min-width: 768px) {
+  .image-gallery-image.fullscreen {
+      height: 100vh;
+  }
+
+  /* Дополнительные стили для полноэкранного режима */
+  .image-gallery-thumbnails-container.fullscreen {
+      width: 100%; /* Изменяем ширину в полноэкранном режиме */
+  }
+
+  .image-gallery-thumbnail.fullscreen .image-gallery-thumbnail-image {
+      height: 80px; /* Изменяем высоту миниатюр в полноэкранном режиме */
+  }
+
+  .image-gallery-content.fullscreen .image-gallery-slide .image-gallery-image {
+      height: 80vh; /* Изменяем высоту изображения в полноэкранном режиме */
   }
 }

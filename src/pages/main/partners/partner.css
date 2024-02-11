@@ -1,5 +1,5 @@
 .Partner{
-    margin: 63px 64px 107px 64px;
+    margin: 160px 64px 107px 64px;
 }
 .container-num2{
     display: flex;
@@ -8,6 +8,7 @@
 }
 .logo-text__div{
     max-width: 40%;
+
 }
 .logo-text{
     color: #030A1B;
@@ -17,12 +18,12 @@
     font-weight: 600;
     line-height: 120%; /* 73.2px */
     text-align: left;
+    margin-top: 0;
 }
 .partners{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin-top: 50px;
     flex-wrap: wrap;
 }
 .partner__header{
