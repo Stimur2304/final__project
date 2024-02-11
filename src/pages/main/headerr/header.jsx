@@ -8,7 +8,7 @@ const  HeaderPart = () => {
     <div className='Header'>
         <div className='header'>
             <div className='logo'>
-                <img className='logo-header' src={image} alt="" />
+                <a href="/"><img className='logo-header' src={image} alt="" /></a>
             </div>
 
             <div className='right__part'>
