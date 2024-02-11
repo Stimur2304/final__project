@@ -4,6 +4,7 @@ import "./about.css"
 import { aboutUsCard } from '../../constants/aboutUs-cards'
 import Tower from "../pictures/Tower.png"
 import { motion } from "framer-motion";
+import MyComponent from '../footer/footer'
 
 const AboutUS = () => {
   return (
@@ -60,6 +61,7 @@ const AboutUS = () => {
                 })}
             </div>
         </div>
+        <MyComponent />
     </div>
   )
 }

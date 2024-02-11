@@ -26,7 +26,7 @@ export const Comments__text =[
         id:"2",
         name:"Vakho Brooklyn",
         job:"Products Designer at Ito",
-        desc:"I paid 17$ for this shit nigga, adipisicing elit. Animi eveniet expedita nostrum perspiciatis accusamus, natus maiores ducimus deserunt! Libero, beatae harum? Nihil fuga dolores obcaecati",
+        desc:"I paid 17$ for this shirt nigga, adipisicing elit. Animi eveniet expedita nostrum perspiciatis accusamus, natus maiores ducimus deserunt! Libero, beatae harum? Nihil fuga dolores obcaecati",
         ava2:`${mell}`,
         name2:"Mellstoy",
         job2:"Products Designer at Ito",
