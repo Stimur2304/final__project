@@ -20,7 +20,7 @@ const LogInPage = () => {
 
   return (
     <div className="LogIn-div">
-      <h1 className='header'>Sign in </h1>
+      <h1 className='header'>Log  in </h1>
 
       <div className='important'>
       <form onSubmit={handleSubmit(null)}>
@@ -37,7 +37,7 @@ const LogInPage = () => {
         })} 
         
         type="text"   
-        placeholder='Put your login' 
+        placeholder='Put your FIO' 
         className='input' 
         />
         {errors?.username&& 
